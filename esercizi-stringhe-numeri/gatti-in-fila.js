@@ -18,4 +18,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats=44;
+var Cats = 44;
+var CatsxRaw = 6;
+var Raws = Math.ceil(Cats/CatsxRaw); // arrotonda al numero intero superiore
+var CatsRemainder = Cats%CatsxRaw;
+console.log(Cats+' gatti in fila per '+CatsxRaw+' col resto di '+CatsRemainder);
+
