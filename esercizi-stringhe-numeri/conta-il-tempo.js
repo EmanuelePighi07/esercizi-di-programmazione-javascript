@@ -12,3 +12,7 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var time = 0;
+
+// è una prova
